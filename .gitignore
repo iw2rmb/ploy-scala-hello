@@ -1,0 +1,7 @@
+*.class
+.target
+.build
+.gradle
+.idea
+.DS_Store
+
