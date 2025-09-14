@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Build stage: compile and prepare distribution using Gradle
-FROM gradle:8.8-jdk-21 AS build
+FROM gradle:8.8-jdk21 AS build
 WORKDIR /src
 COPY . .
 RUN gradle --no-daemon clean installDist
